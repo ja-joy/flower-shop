@@ -141,3 +141,33 @@ button:hover {
     /* 145.833% */
     text-decoration-line: underline;
 }
+
+/* 3rd section */
+#joy {
+    padding: 100px 0px;
+}
+
+.section-icon {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 320px;
+    flex-shrink: 0;
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px;
+    text-align: center;
+}
+
+.img p {
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+    /* justify-content: center; */
+    text-align: center;
+}
+
