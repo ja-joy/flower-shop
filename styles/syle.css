@@ -6,7 +6,8 @@
     font-family: 'Lato', sans-serif;
 }
 
-header {
+header,
+#hot-deal {
     background: rgba(229, 84, 115, 0.10);
 }
 
@@ -53,9 +54,9 @@ p {
 .banner .banner-text h1 {
     color: #272727;
     font-family: Lato;
-    font-size: 80px;
+    font-size: 68px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 800px;
     line-height: normal;
 }
 
@@ -144,21 +145,24 @@ button:hover {
 
 /* 3rd section */
 #joy {
-    padding: 100px 0px;
+    padding: 50px;
 }
 
 .section-icon {
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     width: 1440px;
-    height: 320px;
+    */ height: 320px;
     flex-shrink: 0;
     width: 75%;
     max-width: 1440px;
     margin: 0 auto;
     justify-content: center;
-    align-items: center; 
+    justify-content: space-evenly;
+    align-items: center;
     gap: 20px;
     text-align: center;
 }
@@ -169,5 +173,46 @@ button:hover {
     flex-shrink: 0;
     /* justify-content: center; */
     text-align: center;
+    gap: 20px;
 }
 
+.section-icon {
+    row-gap: 20px;
+}
+
+/* 4th section */
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.hot-deal-text {
+    width: 75%;
+    max-width: 594px;
+}
+.hot-deal-text *{
+    margin-bottom: 24px;
+}
+
+.hot-deal-text h2 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.hot-deal-text h2 .off {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.hot-deal-img{
+    max-width: 318px;
+}
