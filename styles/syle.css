@@ -192,7 +192,8 @@ button:hover {
     width: 75%;
     max-width: 594px;
 }
-.hot-deal-text *{
+
+.hot-deal-text * {
     margin-bottom: 24px;
 }
 
@@ -213,6 +214,60 @@ button:hover {
     font-weight: 800;
     line-height: normal;
 }
-.hot-deal-img{
+
+.hot-deal-img {
     max-width: 318px;
 }
+
+/* 5th section */
+.instagram-header {
+    text-align: center;
+    margin-top: 100px;
+    width: auto;
+    max-width: auto;
+}
+
+/* .instagram-header h2 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.instagram-header p{
+    text-align: center;
+     font-weight 445px; ;
+}
+.instagram-header * {
+    margin-bottom: 24px;
+} */
+.instagram-photos{
+    justify-content: space-between;
+    display: flex;
+}
+
+/* 6th section */
+#news-letter{
+    margin: 128px 0;
+}
+.news-letter-main{
+    background-image: url(../images/newsletterbg.png);
+    padding: 122px 0;
+}
+#news-letter form{
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+#news-letter form input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+    outline: 1px solid green;
+    
+}
+
